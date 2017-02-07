@@ -45,7 +45,7 @@ To keep these widgets agnostic, the setup should point to a single, processed CS
 	...
 	```
 
-**Note:** if your widget requires a thirdy party library, like jQuery, rather than baking it into the `main.js` file, feel free to insert a `<script>` tag just above the `main.js` that points to that library, just make sure to also include that reference in the above `codepenPreferenes.js_external` setting. This will ensure that that library gets referenced for both your GitHub preview, as well as the resulting CodePen when the user clicks the *Edit on Codepen* button.
+	**Note:** if your widget requires a thirdy party library, like jQuery, rather than baking it into the `main.js` file, feel free to insert a `<script>` tag just above the `main.js` that points to that library, just make sure to also include that reference in the above `codepenPreferenes.js_external` setting. This will ensure that that library gets referenced for both your GitHub preview, as well as the resulting CodePen when the user clicks the *Edit on Codepen* button.
 
 5. Update the `README.md` template at the root of your widget's folder
 	* Include a quick description of the widget, possible use cases, and any interesting nuances
