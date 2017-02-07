@@ -50,7 +50,7 @@ To keep these widgets agnostic, the setup should point to a single, processed CS
 5. Update the `README.md` template at the root of your widget's folder
 	* Include a quick description of the widget, possible use cases, and any interesting nuances
 	* Include screenshots of your component for easy browsing
-	* Update the GitHub Preview Link in the format of: `http://htmlpreview.github.io/?[repo-url-for-your-widget]
+	* Update the GitHub Preview Link in the format of: `http://htmlpreview.github.io/?[repo-url-for-your-widget]`
 6. Submit a Pull Request for your addition!
 
 

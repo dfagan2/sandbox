@@ -3,7 +3,7 @@
 </h1>
 This widget ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam sed orci mattis posuere. Proin sodales varius vestibulum. Nullam posuere elit ut nulla viverra consectetur. Maecenas vel enim venenatis, rhoncus tellus vitae, faucibus odio. 
 
-**[link](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/tree/master/template "Preview It!")**
+**[View a Live Preview!](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/tree/master/template "View a Live Preview!")**
 
 # Usage
 
