@@ -1,9 +1,9 @@
 <h1>
-  Widget README Template <img align="right" src="resources/widget.png">
+  Widget Name <img align="right" width="200" src="resources/widget.png">
 </h1>
 This widget ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam sed orci mattis posuere. Proin sodales varius vestibulum. Nullam posuere elit ut nulla viverra consectetur. Maecenas vel enim venenatis, rhoncus tellus vitae, faucibus odio. 
 
-Quisque vitae tortor nibh. Vestibulum commodo neque dui, ac posuere erat fringilla nec. Etiam ut dui quis enim pulvinar aliquet. 
+**[link](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/tree/master/template "Preview It!")**
 
 # Usage
 

@@ -1,5 +1,5 @@
 <h1>
-  Digital Asset Sandbox <img align="right" src="box.png"> 
+  Digital Asset Sandbox <img align="right" width="300" src="box.png"> 
 </h1>
 HTML, CSS, JS for reusable widgets that we commonly see in the front-end development landscape. Peruse the widgets within this repo to pull down and tweak as necessary for your project. Then, when you are done with your project, step back and look at what was built that could be extracted, isolated, and shared with the team as springboards for their work. Follow the guide below in those instances to contribute and grow the library.
 
@@ -48,9 +48,9 @@ var codepenPreferences = {
 **Note:** if your widget requires a thirdy party library, like jQuery, rather than baking it into the `main.js` file, feel free to insert a `<script>` tag just above the `main.js` that points to that library, just make sure to also include that reference in the above `codepenPreferenes.js_external` setting. This will ensure that that library gets referenced for both your GitHub preview, as well as the resulting CodePen when the user clicks the *Edit on Codepen* button.
 
 5. Update the `README.md` template at the root of your widget's folder
-* Include a quick description of the widget, possible use cases, and any interesting nuances
-* Include screenshots of your component for easy browsing
-* Update the GitHub Preview Link in the format of: `http://htmlpreview.github.io/?[repo-url-for-your-widget]
+	* Include a quick description of the widget, possible use cases, and any interesting nuances
+	* Include screenshots of your component for easy browsing
+	* Update the GitHub Preview Link in the format of: `http://htmlpreview.github.io/?[repo-url-for-your-widget]
 6. Submit a Pull Request for your addition!
 
 
