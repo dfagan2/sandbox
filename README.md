@@ -16,34 +16,34 @@ To keep these widgets agnostic, the setup should point to a single, processed CS
 3. Ensure your widget's main JS file is named `main.js` and lives at the root of your widget's folder
 4. Make the following edits to the index.html file...
 
-#### Include your markup.
+	#### Include your markup.
 
-```html
-// index.html
-...
-<section id="widget-container">
-	<!-- place widget HTML here. inside "inner" if you want padding or replace "inner" for full bleed -->
-	<div class="inner">Testing</div>
-</section>
-...
-```
+	```html
+	// index.html
+	...
+	<section id="widget-container">
+		<!-- place widget HTML here. inside "inner" if you want padding or replace "inner" for full bleed -->
+		<div class="inner">Testing</div>
+	</section>
+	...
+	```
 
-#### Configure your codepen preferences, by modifying the following object on page.
+	#### Configure your codepen preferences, by modifying the following object on page.
 
-```js
-// index.html
-...
-// note that html, css, and js will be plugged in automatically
-var codepenPreferences = {
-	editors               : "111", // Set which editors are open. In this example HTML open, CSS closed, JS open
-	css_starter           : "neither", //"normalize" || "reset" || "neither"
-	css_prefix            : "neither", //"autoprefixer" || "prefixfree" || "neither"
-	js_pre_processor      : "none", //"none" || "coffeescript" || "babel" || "livescript" || "typescript"
-	css_external          : "", // e.g.: "http://yoursite.com/style.css". semi-colon separate multiple files
-	js_external           : "", // e.g.: "http://yoursite.com/script.js". semi-colon separate multiple files
-};
-...
-```
+	```js
+	// index.html
+	...
+	// note that html, css, and js will be plugged in automatically
+	var codepenPreferences = {
+		editors               : "111", // Set which editors are open. In this example HTML open, CSS closed, JS open
+		css_starter           : "neither", //"normalize" || "reset" || "neither"
+		css_prefix            : "neither", //"autoprefixer" || "prefixfree" || "neither"
+		js_pre_processor      : "none", //"none" || "coffeescript" || "babel" || "livescript" || "typescript"
+		css_external          : "", // e.g.: "http://yoursite.com/style.css". semi-colon separate multiple files
+		js_external           : "", // e.g.: "http://yoursite.com/script.js". semi-colon separate multiple files
+	};
+	...
+	```
 
 **Note:** if your widget requires a thirdy party library, like jQuery, rather than baking it into the `main.js` file, feel free to insert a `<script>` tag just above the `main.js` that points to that library, just make sure to also include that reference in the above `codepenPreferenes.js_external` setting. This will ensure that that library gets referenced for both your GitHub preview, as well as the resulting CodePen when the user clicks the *Edit on Codepen* button.
 
