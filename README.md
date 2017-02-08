@@ -3,6 +3,8 @@
 </h1>
 HTML, CSS, JS for reusable widgets that we commonly see in the front-end development landscape. Peruse the widgets within this repo to pull down and tweak as necessary for your project. Then, when you are done with your project, step back and look at what was built that could be extracted, isolated, and shared with the team as springboards for their work. Follow the guide below in those instances to contribute and grow the library.
 
+# Browsing the Library
+
 Each widget will have screenshots in the README for easy browsing, a link to a live GitHub Preview to test interactions, and an *Edit on Codepen* button on that page to prefill a Codepen for easy tweaks to test viability for your project.
 
 # Contributing
@@ -53,4 +55,6 @@ To keep these widgets agnostic, the setup should point to a single, processed CS
 	* Update the GitHub Preview Link in the format of: `http://htmlpreview.github.io/?[repo-url-to-your-widget-index-file]`
 6. Submit a Pull Request for your addition!
 
+# Platforms & Frameworks
 
+As we work on within various platforms and technologies, there may be the need to create a whole new directory to accomodate different types of contributions. For example, if you have a widget tailors specifically for React, and a `react-widgets` directory does not already exist, please create the new directory on a new branch and discuss with the group how best to architect the setup within GitHub for these contributions
