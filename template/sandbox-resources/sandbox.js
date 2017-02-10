@@ -58,9 +58,10 @@ callAjax('main.css', function(response){
 		// fix image paths
 		var url = window.location.href.split("github.com")[1].replace("index.html", "");
 		var prefix = "https://raw.githubusercontent.com" + url;
+		prefix = prefix.replace("blob/", "");
 		JSONstring = JSONstring.replace(/(widget-resources\/.*(?=.*\.png|.*\.jpg))/g, function(match){
 			return prefix + match;
-		}).replace("blob/", "");
+		})
 
 		var frame = 
 		'<div class="widget-name">' + document.title + '</div>' + 
