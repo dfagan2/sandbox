@@ -1,15 +1,15 @@
 <h1>
-  Widget Name <img align="right" width="200" src="widget-resources/widget.png">
+  Item Tile <img align="right" width="200" src="widget-resources/item-tile.png">
 </h1>
-This widget ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam sed orci mattis posuere. Proin sodales varius vestibulum. Nullam posuere elit ut nulla viverra consectetur. Maecenas vel enim venenatis, rhoncus tellus vitae, faucibus odio. 
+This item tile is the foundation that can be used for products, recipes, properties, etc. With clean, minimalistic markup and just a little bit of CSS, it is easily customizable, but should still save you some precious minutes of setup.
 
-[View a Live Preview!](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/blob/master/template/index.html)
+[View a Live Preview!](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/blob/master/generic-widgets/item-tile.html)
 
 # Usage
 
 #### Screenshots
 
-[ contextual screenshots ]
+<img width="500" src="widget-resources/context-screenshot.png">
 
 # Documentation.
 
