@@ -61,7 +61,7 @@ callAjax('main.css', function(response){
 		prefix = prefix.replace("blob/", "");
 		JSONstring = JSONstring.replace(/(widget-resources\/.*(?=.*\.png|.*\.jpg))/g, function(match){
 			return prefix + match;
-		})
+		});
 
 		var frame = 
 		'<div class="widget-name">' + document.title + '</div>' + 
