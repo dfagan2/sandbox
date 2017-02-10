@@ -60,7 +60,7 @@ callAjax('main.css', function(response){
 		var prefix = "https://raw.githubusercontent.com" + url;
 		JSONstring = JSONstring.replace(/(widget-resources\/.*(?=.*\.png|.*\.jpg))/g, function(match){
 			return prefix + match;
-		})
+		}).replace("blob/", "");
 
 		var frame = 
 		'<div class="widget-name">' + document.title + '</div>' + 
