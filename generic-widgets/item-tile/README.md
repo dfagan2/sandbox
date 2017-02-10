@@ -1,5 +1,5 @@
 <h1>
-  Widget Name <img align="right" width="200" src="resources/widget.png">
+  Widget Name <img align="right" width="200" src="widget-resources/widget.png">
 </h1>
 This widget ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet quam sed orci mattis posuere. Proin sodales varius vestibulum. Nullam posuere elit ut nulla viverra consectetur. Maecenas vel enim venenatis, rhoncus tellus vitae, faucibus odio. 
 
