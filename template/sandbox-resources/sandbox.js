@@ -55,6 +55,13 @@ callAjax('main.css', function(response){
 		// Quotes will screw up the JSON
 		var JSONstring = JSON.stringify(codepenConfig).replace(/"/g, "&​quot;").replace(/'/g, "&apos;");
 
+		// fix image paths
+		var url = window.location.href.split("github.com")[1].replace("index.html", "");
+		var prefix = "https://raw.githubusercontent.com" + url;
+		JSONstring = JSONstring.replace(/(widget-resources\/.*(?=.*\.png|.*\.jpg))/g, function(match){
+			return prefix + match;
+		})
+
 		var frame = 
 		'<div class="widget-name">' + document.title + '</div>' + 
 		'<form action="http://codepen.io/pen/define" method="POST" target="_blank">' + 
