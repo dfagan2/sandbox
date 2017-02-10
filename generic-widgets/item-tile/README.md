@@ -3,7 +3,7 @@
 </h1>
 This item tile is the foundation that can be used for products, recipes, properties, etc. With clean, minimalistic markup and just a little bit of CSS, it is easily customizable, but should still save you some precious minutes of setup.
 
-[View a Live Preview!](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/blob/master/generic-widgets/item-tile.html)
+[View a Live Preview!](http://htmlpreview.github.io/?https://github.com/dfagan2/sandbox/blob/master/generic-widgets/item-tile/index.html)
 
 # Usage
 
