@@ -61,7 +61,7 @@ callAjax('main.css', function(response){
 		'<input type="hidden" name="data" value=\'' + 
 		JSONstring + 
 		'\'>' + 
-		'<input type="image" src="resources/codepen.png" value="Create New Pen with Prefilled Data" class="codepen-mover-button">' +
+		'<input type="image" src="sandbox-resources/codepen.png" value="Create New Pen with Prefilled Data" class="codepen-mover-button">' +
 		'</form>';
 
 		document.getElementById("widget-frame").innerHTML = frame;
